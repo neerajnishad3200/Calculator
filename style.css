@@ -1,0 +1,72 @@
+*{
+  /* padding: 0;
+  margin: 0; */
+  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+  font-size: 30px;
+   text-align: center;
+   font-style: bold;
+   color: yellow;
+} 
+body {
+  background-image:url(images.jpg);
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+  display: flex;
+  /* this line was really crucial to b ring table into center */
+flex-direction: column;             
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#calculator{
+  border: 1px solid rgb(187, 183, 183);
+  border-radius: 5px;
+  width: 199px;
+ 
+    text-align: center;
+    background-color: paleturquoise;
+  
+}
+.button_container input{
+ justify-content: center;
+ margin: 10px;
+text-align: center;
+  width: 88%;
+}
+
+.button_container{
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+}
+.button{
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+#foot p{
+  
+  color: rgb(97, 42, 148);
+  
+} 
+#foot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1f1; /* Set your desired background color */
+  /* padding: 5px; */
+  text-align: center;
+  height: 54px;
+
+}
+
